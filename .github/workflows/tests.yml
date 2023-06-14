@@ -36,7 +36,7 @@ jobs:
         run: yarn test
 
       - name: Run coverage
-        run: "yarn test --coverage --collectCoverageFrom='src/components/**/*.{ts,tsx}'"
+        run: yarn test --coverage --collectCoverageFrom="src/components/**/*.{ts,tsx}"
 
       - name: Build project
         run: yarn build
