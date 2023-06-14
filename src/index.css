@@ -58,7 +58,7 @@ body {
 
 .board-row {
 	display: grid;
-	width: 8%;
+	width: 5%;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 }
